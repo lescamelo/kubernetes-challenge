@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: aplication
-  name: aplication
+    app: app
+  name: app
 spec:
   replicas: 1
   selector:
     matchLabels:
-	app: aplication
+	app: app
   strategy: {}
   template:
     metadata:
 	creationTimestamp: null
 	labels:
-	  app: aplication
+	  app: app
     spec:
       containers:
       - image: virt.01
