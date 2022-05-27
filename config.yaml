@@ -4,5 +4,5 @@ data:
 kind: ConfigMap
 metadata:
   creationTimestamp: null
-  name: configuration
+  name: config
  
